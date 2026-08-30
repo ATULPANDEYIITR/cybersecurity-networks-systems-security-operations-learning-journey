@@ -63,3 +63,59 @@ To build a strong foundation in cybersecurity and understand how systems, networ
 * [ ] Threat Intelligence
 * [ ] Governance & Risk
 * [ ] Security Labs
+
+# Day 01: Cybersecurity Fundamentals
+
+## Objective
+
+Begin building a strong foundation in Cybersecurity by understanding what needs to be protected, common threats, security principles, risks, and basic security controls.
+
+## Topics Covered
+
+* What is Cybersecurity?
+* Security Assets
+* CIA Triad
+* Cybersecurity Threats
+* Vulnerabilities
+* Risk
+* Authentication
+* Authorization
+* Encryption
+* Password Security
+* Security Controls
+* Basic Security Principles
+* Cybersecurity Workflow
+
+## Code Implementation
+
+The Python program demonstrates:
+
+* Basic cybersecurity concepts
+* Identifying assets that require protection
+* Understanding the CIA Triad
+* Identifying common cybersecurity threats
+* Understanding threats and vulnerabilities
+* Representing basic cybersecurity risk
+* Authentication and authorization concepts
+* Introduction to encryption
+* Password security practices
+* Common security controls
+* Basic cybersecurity workflow
+
+**External Libraries:** None
+
+## Why This Matters
+
+Cybersecurity focuses on protecting information, systems, networks, applications, and users from threats and unauthorized activity.
+
+These fundamentals provide the foundation for learning networking, cryptography, ethical hacking, security operations, digital forensics, cloud security, application security, and cyber risk management.
+
+## Learning Approach
+
+Cybersecurity will be covered gradually, starting with fundamental concepts and progressing toward networking, operating system security, cryptography, vulnerabilities, ethical hacking, security operations, digital forensics, cloud security, application security, and advanced cybersecurity concepts.
+
+## Day 01 Completed
+
+**Focus:** Introduction to Cybersecurity
+
+**Next:** Continue with the next concepts in Cybersecurity.
