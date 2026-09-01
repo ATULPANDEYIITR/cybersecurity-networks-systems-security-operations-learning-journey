@@ -33,7 +33,6 @@
 | 28 | Day 28 | Packet Analysis | Packet capture, filters, TCP streams, protocol analysis, suspicious traffic | Wireshark |
 | 29 | Day 29 | Network Troubleshooting | DNS failures, routing issues, packet loss, latency, MTU, connectivity diagnostics | Wireshark, ping, traceroute |
 | 30 | Day 30 | Networking Security Review | Network attack surface, exposed services, insecure protocols, segmentation fundamentals | Wireshark, Nmap |
-
 | 31 | Day 31 | Linux Fundamentals | Filesystem, processes, users, groups, permissions, packages, services | Ubuntu, Kali Linux |
 | 32 | Day 32 | Linux CLI | ls, cd, cat, grep, find, awk, sed, pipes, redirection | Bash |
 | 33 | Day 33 | Linux Permissions | chmod, chown, ACLs, sudo, ownership, privilege boundaries | Linux terminal |
@@ -44,7 +43,6 @@
 | 38 | Day 38 | Linux Security | SSH, sudo, permissions, secure configuration, service minimization | OpenSSH |
 | 39 | Day 39 | Linux Hardening | Account security, SSH hardening, firewalling, patching, auditing | UFW, auditd |
 | 40 | Day 40 | Linux Security Monitoring | Process monitoring, network connections, authentication events, persistence indicators | auditd, ps, ss |
-
 | 41 | Day 41 | Windows Fundamentals | Windows architecture, users, groups, services, registry, filesystem | Windows 11 |
 | 42 | Day 42 | Windows Processes | Processes, threads, services, parent-child relationships | Task Manager, PowerShell |
 | 43 | Day 43 | Windows Registry | Registry structure, keys, values, configuration, security relevance | Registry Editor, PowerShell |
@@ -55,7 +53,6 @@
 | 48 | Day 48 | Windows Networking | SMB, RDP, WinRM, RPC, Windows Firewall | PowerShell, netstat |
 | 49 | Day 49 | Windows Event Logs | Security, System, Application, PowerShell, authentication events | Event Viewer |
 | 50 | Day 50 | Windows Security Monitoring | Process creation, logons, privilege changes, account activity | Sysmon, Event Viewer |
-
 | 51 | Day 51 | System Hardening | Secure baselines, attack surface reduction, service minimization, patch management | CIS Benchmarks |
 | 52 | Day 52 | Linux Hardening Deep Dive | SSH, sudo, filesystem permissions, kernel controls, auditing | Lynis, auditd |
 | 53 | Day 53 | Windows Hardening | Defender, firewall, security policies, application controls, attack surface reduction | Microsoft Defender |
@@ -66,7 +63,6 @@
 | 58 | Day 58 | Firewalls | Stateless filtering, stateful firewalls, rules, zones, default deny | UFW, Windows Firewall |
 | 59 | Day 59 | Host-Based Firewalls | Inbound/outbound controls, application rules, logging | Windows Firewall, UFW |
 | 60 | Day 60 | Network Segmentation | VLANs, DMZ, microsegmentation, trust zones, east-west traffic | Packet Tracer |
-
 | 61 | Day 61 | Cryptography Fundamentals | Plaintext, ciphertext, keys, symmetric and asymmetric encryption | OpenSSL |
 | 62 | Day 62 | Symmetric Cryptography | AES, key management, IVs, modes, authenticated encryption | OpenSSL |
 | 63 | Day 63 | Asymmetric Cryptography | RSA, ECC, public/private keys, encryption vs signing | OpenSSL |
@@ -77,7 +73,6 @@
 | 68 | Day 68 | TLS Deep Dive | TLS handshake, cipher suites, certificates, session keys | OpenSSL, Wireshark |
 | 69 | Day 69 | Secure Communications | SSH, HTTPS, VPN concepts, secure file transfer | OpenSSH, OpenSSL |
 | 70 | Day 70 | Cryptography Security Review | Common crypto failures, weak algorithms, key leakage, certificate issues | OpenSSL |
-
 | 71 | Day 71 | Identity & Access Management | Authentication, authorization, accounting, IAM lifecycle | Windows AD, Linux |
 | 72 | Day 72 | Authentication Factors | Passwords, MFA, hardware tokens, biometrics, adaptive authentication | Microsoft Entra concepts |
 | 73 | Day 73 | Authorization Models | RBAC, ABAC, ACLs, DAC, MAC, least privilege | Windows/Linux ACLs |
@@ -88,7 +83,6 @@
 | 78 | Day 78 | Secrets Management | API keys, tokens, passwords, vaults, rotation, secret exposure | HashiCorp Vault concepts |
 | 79 | Day 79 | Zero Trust | Verify explicitly, least privilege, continuous evaluation, segmentation | Zero Trust architecture |
 | 80 | Day 80 | IAM Security Review | Identity attack surface, privilege escalation concepts, access reviews | AD, BloodHound |
-
 | 81 | Day 81 | Security Operations Fundamentals | SOC mission, SOC tiers, monitoring, alerting, escalation, incident lifecycle | SIEM concepts |
 | 82 | Day 82 | SOC Architecture | Data sources, collectors, parsers, storage, correlation, dashboards | Wazuh, Elastic concepts |
 | 83 | Day 83 | Security Logs | Windows, Linux, firewall, DNS, proxy, authentication, application telemetry | Sysmon, Windows Event Logs |
@@ -99,7 +93,6 @@
 | 88 | Day 88 | IOC Investigation | IP addresses, domains, hashes, URLs, filenames, registry indicators | VirusTotal, WHOIS |
 | 89 | Day 89 | Threat Intelligence | Strategic, operational, tactical intelligence, feeds, indicators, context | MITRE ATT&CK, MISP |
 | 90 | Day 90 | SOC Case Management | Tickets, evidence, notes, timelines, escalation, communication | TheHive concepts |
-
 | 91 | Day 91 | MITRE ATT&CK | Tactics, techniques, sub-techniques, procedures, ATT&CK mapping | MITRE ATT&CK |
 | 92 | Day 92 | Detection Engineering | Detection logic, behavioral detection, precision, recall, false positives | Sigma |
 | 93 | Day 93 | Sigma Rules | Rule structure, log sources, selections, conditions, conversion concepts | Sigma |
@@ -110,7 +103,6 @@
 | 98 | Day 98 | Network Security Monitoring | Connections, DNS, HTTP, TLS metadata, files, protocol behavior | Zeek |
 | 99 | Day 99 | Threat Hunting | Hypothesis-driven hunting, baselines, anomalies, behavioral investigation | Kibana, Zeek |
 | 100 | Day 100 | Advanced Threat Hunting | Living-off-the-land concepts, persistence patterns, lateral movement indicators, rare events | Elastic, Sigma, ATT&CK |
-
 | 101 | Day 101 | Incident Response | Preparation, identification, containment, eradication, recovery, lessons learned | NIST IR concepts |
 | 102 | Day 102 | Incident Triage | Alert validation, scoping, affected hosts, affected accounts, severity assessment | SIEM, EDR |
 | 103 | Day 103 | Digital Forensics | Evidence acquisition, chain of custody, disk and memory concepts | Autopsy, FTK Imager concepts |
@@ -121,7 +113,6 @@
 | 108 | Day 108 | Malware Fundamentals | Malware types, execution, persistence, command-and-control concepts | REMnux concepts |
 | 109 | Day 109 | Malware Analysis | Static analysis, hashes, strings, PE structure, behavioral analysis | Ghidra, Detect It Easy |
 | 110 | Day 110 | Dynamic Malware Analysis | Sandboxing, process behavior, filesystem changes, network activity | Any.Run concepts, Procmon |
-
 | 111 | Day 111 | Cloud Security Fundamentals | Shared responsibility, IAM, virtual networks, security groups, logging | AWS/Azure concepts |
 | 112 | Day 112 | Cloud Monitoring | Cloud audit logs, identity activity, network telemetry, suspicious API calls | AWS CloudTrail concepts |
 | 113 | Day 113 | Container Security | Images, registries, namespaces, capabilities, container isolation | Docker, Trivy |
