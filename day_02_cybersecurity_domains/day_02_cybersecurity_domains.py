@@ -1,4 +1,3 @@
-```python
 """
 CYBERSECURITY DOMAINS
 =====================
@@ -2821,5 +2820,3 @@ of unrelated tools.
 print("\n" + "=" * 78)
 print("END OF CYBERSECURITY DOMAINS STUDY PROGRAM")
 print("=" * 78)
-```
-
