@@ -1,0 +1,69 @@
+<!-- File: web/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Ports & Sockets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <p class="eyebrow">NETWORK INSPECTION LAB</p>
+            <h1>Ports &amp; Sockets</h1>
+            <p class="description">
+                Inspect the TCP and UDP endpoints visible to the local Python service.
+            </p>
+        </header>
+
+        <section class="controls" aria-label="Endpoint filters">
+            <label>
+                Protocol
+                <select id="protocol">
+                    <option value="">All</option>
+                    <option value="tcp">TCP</option>
+                    <option value="udp">UDP</option>
+                </select>
+            </label>
+
+            <label>
+                Port
+                <input id="port" type="number" min="0" max="65535" placeholder="Any">
+            </label>
+
+            <label class="checkbox">
+                <input id="listening" type="checkbox">
+                Listening only
+            </label>
+
+            <button id="refresh">Refresh</button>
+        </section>
+
+        <section class="status-panel">
+            <span id="status">Waiting for API...</span>
+            <span id="count">0 endpoints</span>
+        </section>
+
+        <section class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Protocol</th>
+                        <th>Local</th>
+                        <th>Remote</th>
+                        <th>State</th>
+                        <th>PID</th>
+                        <th>Process</th>
+                        <th>Service</th>
+                    </tr>
+                </thead>
+                <tbody id="endpoint-table"></tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
