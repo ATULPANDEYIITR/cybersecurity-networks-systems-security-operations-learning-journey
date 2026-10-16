@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Active Directory Architecture: Forests, Trees, Domains, Trusts, LDAP, and DNS.
 
